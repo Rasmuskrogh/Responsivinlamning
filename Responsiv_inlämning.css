@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    font-size: 2vw;
+}
+
+.header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border: 2px dotted green;
+    height: 60vw;
+        
+}
+
+.header-h1 {
+    align-self: center;
+    margin-top: 3%;
+}
+
+.headerpic {
+    width: 100%;
+    position: absolute;
+}
+
+.header-text {
+    align-self: center;
+    z-index: 2;
+
+}
+
+h1.header-text {
+    margin-top: 49%;
+    margin-left: 25%;
+}
+
+p.header-text {
+    margin-top: 3%;
+    text-align: right;
+}
+
+
+.section-1 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    border: 2px dotted green;
+    margin-top: 20%;
+}
+
+
+.picture-1 {
+    order: 2;
+    
+}
+
+.text-1 {
+    margin-left: 10%;
+}
+
+.h3-1 {
+    margin-left: 20%;
+    margin-bottom: 5%;
+}
+
+.video {
+    width: 100%;
+}
+
+
+.section-2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border: 2px dotted green;
+    text-align: right;
+}
+
+.picture-2 {
+    order: 1;
+}
+
+.text-2 {
+    order: 2;
+    margin-right: 10%;
+}
+
+.section-3 {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+figure>img {
+    width: 600px
+}
+
+aside {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px dotted green;
+    position: relative;
+    
+}
+
+.aside-text {
+    position: absolute;
+}
+
+p.aside-text{
+    bottom: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+
+h1.aside-text {
+    margin-bottom: 5%;
+}
+
+.asidepic {
+    width: 100%;
+    z-index: -1;
+    
+}
+
+footer {
+    background-color:rgb(43,46,52);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    }
+
+footer>p,div {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+}
+
+div>h3 {
+    margin-top: 10%;
+}
+
+div>p {
+    margin-bottom: 10%;
+}
+
+footer>p {
+    margin-top: 9%;
+}
+
+
