@@ -80,7 +80,6 @@ p.header-text {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    border: 2px dotted green;
     text-align: right;
 }
 
