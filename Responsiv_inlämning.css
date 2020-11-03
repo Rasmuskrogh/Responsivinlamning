@@ -1,20 +1,22 @@
+/*Resetting browser presets*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/*setting the font-family for the page and making the text responsive*/
 body {
     font-family: 'Montserrat', sans-serif;
     width: 100%;
     font-size: 2vw;
 }
 
+/*Using flexbox and postioning to place the picture and texts in the header*/
 .header {
     position: relative;
     display: flex;
     flex-direction: column;
-    border: 2px dotted green;
     height: 60vw;
         
 }
@@ -45,13 +47,12 @@ p.header-text {
     text-align: right;
 }
 
-
+/*Using flexbox for the first section. Order to make the picture get on the side it's supposed to be*/
 .section-1 {
     display: flex;
     align-items: center;
     flex-direction: row;
-    border: 2px dotted green;
-    margin-top: 20%;
+    margin-top: 10%;
 }
 
 
@@ -69,11 +70,12 @@ p.header-text {
     margin-bottom: 5%;
 }
 
+/*inserting the video and making it take up the width of the screen*/
 .video {
     width: 100%;
 }
 
-
+/*Using flexbox for the first section. Order to make the picture get on the side it's supposed to be*/
 .section-2 {
     display: flex;
     align-items: center;
@@ -96,17 +98,49 @@ p.header-text {
     margin-right: 10%;
 }
 
-
-figure>img {
-    width: 600px
+/*Using media queries to make the section pics responsive*/
+@media (min-width: 176px) {
+    figure>img {
+    width: 150px
+    }
 }
 
+@media (min-width: 376px) {
+    figure>img {
+    width: 200px
+    }
+}
+
+@media (min-width: 576px) {
+    figure>img {
+    width: 300px
+    }
+}
+
+@media (min-width: 768px) {
+    figure>img {
+        width: 400px
+    }
+}
+
+@media (min-width: 992px) {
+    figure>img {
+        width: 500px
+    }
+}
+
+@media (min-width: 1200px) {
+    figure>img {
+        width: 600px
+    }
+}
+
+/*Using flexbox and positioning to place the text and picture in the aside part*/
 aside {
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    border: 2px dotted green;
     position: relative;
     
 }
@@ -132,6 +166,7 @@ h1.aside-text {
     
 }
 
+/*Using flexbox and margins to place the text where it's supposed to bo while coloring the background and the text*/
 footer {
     background-color:rgb(43,46,52);
     color: white;
@@ -156,5 +191,4 @@ div>p {
 footer>p {
     margin-top: 9%;
 }
-
 
